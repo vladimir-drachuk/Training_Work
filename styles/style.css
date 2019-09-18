@@ -1,0 +1,535 @@
+@font-face{
+    font-family: GenBkBasR;
+    src: url(../fonts/GenBkBasR.ttf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: YesevaOne;
+    src: url(../fonts/YesevaOne-Regular_v2.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+    font-weight: normal;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 1600px;
+    
+}
+
+p {
+    font-family: lato;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+}
+
+h2 {
+    color: #c90;
+    font-size: 36px;
+    font-family: YesevaOne;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+header {
+    background: url(../images/background-header.jpg) no-repeat;
+    background-size: 100%;
+    height: 750px;
+    box-shadow: inset 0 0 100px rgba(0,0,0,1);
+
+    
+}
+
+.container {
+    margin: 0 180px;
+    width: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.logo p{
+    color: #FFF;
+    font-family: 222 sans-serif;
+    font-size: 30px;
+    padding: 45px 0;
+
+}
+.menu {
+    display: block;
+    float: right;
+}
+
+.menu li {
+    float: right;
+    display: block;
+    padding: 54px 0;
+    margin:  0 27px;
+    border: 2px solid transparent;
+}
+
+
+.menu li a{
+    color: #FFF;
+    font-size: 20px;
+    font-family: GenBkBasR;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social {
+    display: block;
+    padding: 54px 0;
+    float: right;
+    vertical-align: bottom;
+}
+
+.social li{
+    display: block;
+    float: right;
+    margin:  0 12px;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+    width: 100%;
+}
+
+.faceBook {
+    background: url(../images/faceBook.png);
+    height: 20px;
+    width: 10px;
+}
+
+.twitter {
+    background: url(../images/twitter.png);
+    height: 16px;
+    width: 19px;
+}
+
+.youTube {
+    background: url(../images/youTube.png);
+    height: 21px;
+    width: 18px;
+    
+}
+
+.menu li:hover {
+    border-top: 2px solid #FFF;
+}
+
+.faceBook:hover {
+    background: url(../images/faceBook-hover.png);
+}
+
+.twitter:hover {
+    background: url(../images/twitter-hover.png);
+}
+
+.youTube:hover {
+    background: url(../images/youTube-hover.png); 
+}
+
+.title {
+    text-align: center;
+    width: auto;
+}
+
+h1 {
+    font-size: 66px;
+    color: #fff;
+    font-family: YesevaOne;
+    font-size: 90px;
+    font-weight: 100;
+    margin: 100px 0 33px 0;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid white;
+    height: 38px;
+    width: 228px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    margin: 35px 15px;
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+.button1 {
+    border-color: black;
+    background: rgba(0, 0, 0, 0.3);  
+}
+
+.button2 {
+    border-color: white;
+    background: rgba(255, 255, 255, 0.3); 
+}
+
+
+
+
+
+.about{
+    background: url(../images/pattern.png);
+    height: 710px;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.5);
+}
+.column {
+    display: inline-block;
+    width: 430px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.column-1 {
+    margin: 0 10px 0 115px;
+    
+}
+
+.about h2 {
+    margin: 90px auto 16px auto; 
+} 
+
+.text {
+    margin: 31px auto 47px auto;
+}
+
+.img-cooker {
+    margin-left: 80px;
+}
+
+
+.column-2 {
+    display: inline-block;
+    width: 650px;
+    height: 650px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.ingredients {
+    background: url(../images/background-ingr.jpg) no-repeat;
+    height: 760px;
+}
+
+.fineInrgedients {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    width: 567px;
+    height: 555px;
+    margin: 97px 0 0 635px;
+    text-align: center; 
+}
+
+.ingredients .text {
+    color: #FFF;
+}
+
+.ingredients h2 {
+    color: #FFF;
+    margin: 75px 0 11px 0;
+}
+
+.picture-border {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    margin: 12px;
+}
+
+
+.picture {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 0 solid;
+    border-radius: 50%;
+}
+
+.picture-1 {
+    background: url(../images/firstingredinents.jpg);
+}
+
+.picture-2 {
+    background: url(../images/secondingredinents.jpg);
+}
+
+.picture-3 {
+    background: url(../images/lastingredinents.jpg);
+}
+
+
+
+
+.kitchen {
+    background: url(../images/pattern2.jpg);
+    height: 995px;
+}
+
+.articles {
+    height: 100px;
+    text-align: center;
+    height: 990px;
+}
+
+.articles .column {
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+}
+
+.lineUnder {
+    border-bottom: 1px solid #c90;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+ .dish {
+     display: block;
+     float:left;
+      
+ }
+
+.price {
+    display: block;
+    float: right;
+ }
+
+.kitchen .top {
+    margin: 105px 0 20px 0;
+}
+
+.kitchen .bottom{
+    margin: 30px 0 0 0;
+}
+
+.kitchen h3 {
+
+     color: #c90;
+ }
+
+.kitchen .wright {
+     margin-bottom: 40px;
+ }
+
+.kitchen .firstDish {
+     margin-top: 15px;
+ }
+
+ .vipDish {
+     position: relative;
+ }
+
+ .vipDishBorder {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    width: 450px;
+    height: 70px;
+    border: 1px solid #c90;
+ }
+
+ .special {
+    position: absolute;
+    right: -10px;
+    top: -27px;
+    width: 69px;
+    height: 18px;
+    padding-top: 4px;
+    font-size: 10pt;
+    font-family: Arial;
+    color: #FFF;
+    background: url(../images/background-special.jpg);
+ }
+
+
+
+
+
+
+
+ .guest {
+     background: url(../images/guest.jpg) no-repeat;
+     height: 657px;
+     padding-top: 101px;
+
+ }
+
+ .guest-border {
+     position: relative;
+     width: 766px;
+     height: 555px;
+     border: 1px solid #000;
+     background-color: rgba(0, 0, 0, 0.7);
+     margin: auto;
+     text-align: center;
+     color: #FFF;
+     line-height: 43px;
+ }
+
+ .guest h2 {
+     color: #FFF;
+     margin: 80px 0 16px 0; 
+
+ }
+
+ .guest h3 {
+     margin: 20px 0 37px 0;
+ }
+
+ .guest p {
+     font-size: 16.5px;
+     color: #fff;
+ }
+
+ .qMark {
+     position: absolute;
+     left: 31px;
+     top: 170px;
+     font-size: 50pt;
+     font-family: lato;
+     color: #81827c;
+ }
+
+
+
+
+
+.form {
+    height: 715px;
+    background: url(../images/pattern.png)
+}
+
+
+ .form .column-2 {
+    text-align: center;
+ }
+
+ .form .column {
+
+    margin-left: 60px;
+
+ }
+
+ .form .photo {
+     display: inline-block;
+     margin: 50px 14px 0 14px;
+ }
+
+ .form h2 {
+     margin: 95px 0 17px 0;
+ }
+
+.form .textform {
+    margin: 27px 0 25px 0;
+}
+
+.form-column {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-bottom:  20px;
+}
+
+.form input, select {
+    width: 198px;
+    height: 33px;
+    margin-top: 7px;
+    font-style: italic;
+    font-size: 13pt;
+    border: 1px solid grey;
+}
+
+form p {
+    color: #c90;
+}
+
+.form .right {
+    margin-right: 26px;
+}
+ 
+.send {
+    width: 430px;
+    height: 400px; 
+    text-align: left;
+}
+
+.form input:hover {
+    border: 1px solid #c90;
+}
+
+
+input[type="submit"] {
+    width: 198px;
+    height: 33px;
+    margin: 7px 0 0 125px;
+    color: #fff;
+    background: #c90;
+    border: 1px solid #c90;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #000;
+    height: 320px;
+}
+
+footer .column {
+    height: 300px;
+    width: 400px;
+}
+
+footer h3 {
+    color: white;
+    margin: 51px 0 15px 0;
+}
+
+footer p { 
+    color: white;
+    margin-top: 10px;
+}
+
+footer .lasttwo { 
+    width: 350px;
+}
+
+footer .container {
+    text-align: center;
+}
